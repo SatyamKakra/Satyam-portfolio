@@ -92,7 +92,7 @@ img{
 
 .home-section.active,
 .project-section.active,
-.about-section.active,
+.About-section.active,
 .contact-section.active{
     position: relative;
     opacity: 1;
@@ -126,6 +126,7 @@ p{
     font-weight: 100;
     color: #4fdfff;
 }
+
 
 /* skills */
 
@@ -228,24 +229,45 @@ h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     display: flexbox;
-    justify-content: start;
+    justify-content: center;
     padding: 10px;
     margin-top: 0rem;
     margin-left: auto;
     text-align: center;
     font-weight: 100;
     color: rgb(70, 168, 122);
+    
 
 }
 
 #contact a:not(.btn-floating) {
     align-items: center;
-    bottom: 2px;
-    margin-left: 11rem;
+    bottom: 10px;
+    margin-left: 10rem;
     position: relative;
-}
-.social-img{
-    margin-left: 35rem;
+    
+    
 }
 
 
+  .icon-btn {
+    margin-left: 20rem;
+    width: 20px;
+    height: 15px;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 3px;
+    line-height: 7px;
+    border-radius: 4px;
+    display: inline-flexbox;
+    margin: 0px;
+    
+  }
+
+  
+
+
+
+  
+ 
