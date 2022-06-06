@@ -129,6 +129,10 @@ article>div>div nav{
     height: 15vw;
 }
 
+.skill_icon3{
+    height: 10vw;
+}
+
 #text3d {
     font-size: 3vw;
     width: 30vw;
@@ -155,11 +159,16 @@ article>div>div nav{
      
  }
 
+
  #cet{
+     
      color:orange;
      margin-left: 2rem;
      
+     
  }
+
+ 
 
  #project{
      display: flex;
@@ -168,18 +177,22 @@ article>div>div nav{
      margin-right: 5vw;
      margin-left: 5vw;
      align-items: center;
+     
+     
  }
 
- #project img{
-     height: 15vw;
-     border: ridge 5px rgba(85,63,50,1);
- }
+ 
  #project p{
     color: rosybrown;
-    text-align: justify;
+    text-align:right;
     width: 25vw;
     font-size: 1.2vw;
+  
+ 
+    
 }
+
+
 
 ul{
     list-style-type: none;
